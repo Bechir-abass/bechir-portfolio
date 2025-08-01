@@ -67,14 +67,14 @@ export function ContactSection() {
                 </CardContent>
               </Card>
 
-              <Card className="shadow-elegant hover:shadow-glow transition-spring border-primary/10 cursor-pointer" onClick={() => window.open('https://bechir-profile.netlify.app', '_blank')}>
+              <Card className="shadow-elegant hover:shadow-glow transition-spring border-primary/10 cursor-pointer" onClick={() => window.open('https://bechir-social-media-hub.netlify.app', '_blank')}>
                 <CardContent className="p-6 flex items-center">
                   <div className="p-3 bg-primary/10 rounded-lg mr-4">
                     <ExternalLink className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-medium">Portfolio Hub</h4>
-                    <p className="text-muted-foreground">bechir-profile.netlify.app</p>
+                    <h4 className="font-medium">My Social Media Hub</h4>
+                    <p className="text-muted-foreground">https://bechir-social-media-hub.netlify.app</p>
                   </div>
                 </CardContent>
               </Card>
