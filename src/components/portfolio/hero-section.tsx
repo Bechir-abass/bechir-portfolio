@@ -138,13 +138,7 @@ export function HeroSection() {
         </div>
       </div>
 
-      {/* Enhanced Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce group cursor-pointer" onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}>
-        <div className="w-8 h-12 border-2 border-primary/50 rounded-full flex justify-center bg-glass backdrop-blur-sm transition-all duration-300 group-hover:border-primary group-hover:shadow-glow">
-          <div className="w-1.5 h-4 bg-primary rounded-full mt-2 animate-pulse group-hover:bg-primary-glow"></div>
-        </div>
-        <div className="text-xs text-muted-foreground mt-2 opacity-60 group-hover:opacity-100 transition-opacity">Scroll</div>
-      </div>
+
     </section>
   )
 }

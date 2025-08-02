@@ -16,7 +16,7 @@ export function AboutSection() {
             About <strong className="text-primary">Me</strong>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A passionate student from Mauritania with big dreams and determination to make an impact in the tech world.
+            I am a dedicated and enthusiastic student actively seeking an internship opportunity. I aspire to collaborate with a reputable organization where I can contribute meaningfully while further enhancing my skills and professional development.
           </p>
         </div>
 
