@@ -20,12 +20,12 @@ export function SkillsSection() {
   const skills: Skill[] = [
     { name: "Programming", level: 85, category: "Technical" },
     { name: "Web Design", level: 90, category: "Technical" },
-    { name: "Data Analysis", level: 80, category: "Technical" },
+    { name: "Data Analysis", level: 67, category: "Technical" },
     { name: "Database Management", level: 75, category: "Technical" },
     { name: "Project Management", level: 85, category: "Soft Skills" },
-    { name: "Communication", level: 90, category: "Soft Skills" },
+    { name: "Communication", level: 82, category: "Soft Skills" },
     { name: "Time Management", level: 95, category: "Soft Skills" },
-    { name: "Teamwork", level: 90, category: "Soft Skills" }
+    { name: "Teamwork", level: 98, category: "Soft Skills" }
   ]
 
   const tools = [
@@ -80,7 +80,7 @@ export function SkillsSection() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Skills & <strong className="text-primary">Services</strong>
+            Skills & <strong className="text-primary">Ability</strong>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             A comprehensive skill set developed through education, hands-on projects, and professional experience.
@@ -150,7 +150,7 @@ export function SkillsSection() {
 
         {/* Services */}
         <div className="animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-          <h3 className="text-3xl font-bold text-center mb-12">Services I Provide</h3>
+          <h3 className="text-3xl font-bold text-center mb-12">Ability</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (
               <Card 

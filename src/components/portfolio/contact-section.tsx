@@ -62,7 +62,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-medium">Phone</h4>
-                    <p className="text-muted-foreground">0147978226</p>
+                    <p className="text-muted-foreground">+60 14 7978 226</p>
                   </div>
                 </CardContent>
               </Card>
