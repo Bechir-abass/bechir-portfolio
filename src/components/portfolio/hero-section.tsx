@@ -129,7 +129,7 @@ export function HeroSection() {
               variant="ghost" 
               size="icon" 
               className="group transition-spring hover:scale-125 hover:shadow-glow bg-glass rounded-full w-14 h-14 border border-primary/20 hover:border-primary/50 hover:bg-primary/10"
-              onClick={() => window.open('mailto:bechirstudy2024@gmail.com')}
+              onClick={() => window.open('mailto:Bhoussein2001@gmail.com')}
               aria-label="Email Contact"
             >
               <Mail className="h-6 w-6 transition-all duration-300 group-hover:text-primary group-hover:scale-110" />

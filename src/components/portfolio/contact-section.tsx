@@ -50,7 +50,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-medium">Email</h4>
-                    <p className="text-muted-foreground">bechirstudy2024@gmail.com</p>
+                    <p className="text-muted-foreground">Bhoussein2001@gmail.com</p>
                   </div>
                 </CardContent>
               </Card>

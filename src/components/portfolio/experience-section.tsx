@@ -27,7 +27,7 @@ export function ExperienceSection() {
       skills: ["Leadership", "Project Management", "Logistics", "Team Coordination"]
     },
     {
-      title: "Cashier",
+      title: "Assistant store manager",
       company: "IP Gold Mauritanie",
       period: "2018 - 2019",
       location: "Mauritania",
